@@ -79,7 +79,7 @@ jobs:
         path: /home/runner/work/ParallelRandomTesting/ParallelRandomTesting/coverage_?
         
         
-  #Job che si attiva al termine di tutte le sessioni di test
+  #Job che si attiva al termine di tutte le sessioni di test, effettua i merge dei file di coverage
   
   merge:
    needs: tests
@@ -144,6 +144,9 @@ jobs:
       with:
         name: Coverage merge
         path: /home/runner/work/ParallelRandomTesting/ParallelRandomTesting/coveragemerge/*
+        
+  #job che valuta i risultati e prepara la successiva esecuzione
+  
   badge:
     needs: merge
     runs-on: ubuntu-latest
