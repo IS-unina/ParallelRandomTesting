@@ -324,7 +324,7 @@ jobs:
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: main.yml
-        inputs: '{ "JarName": "${{env.name_file}}", "CoverageValue": "${{env.coverage_value}}" }'
+        inputs: '{ "JarName": "${{env.name_file}}", "CoverageValue": "${{env.coverage_value}}", "TimeLimit": "${{env.time_limit}}" }'
         
 
 
