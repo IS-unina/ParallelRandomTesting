@@ -1,1 +1,5 @@
-randoop.service;
+src.randoop.EmmaCoverage
+src.randoop.FolderOperations
+src.randoop.RandoopObserver
+src.randoop.RandoopSubject
+src.randoop.RunRandoop
