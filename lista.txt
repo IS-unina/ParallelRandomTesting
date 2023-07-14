@@ -1,2 +1,5 @@
-randoop.RandoopObserver.Main
-randoop.RandoopSubject.Main
+randoop.RandoopObserver
+randoop.RandoopSubject
+randoop.EmmaCoverage
+randoop.FolderOperations
+randoop.RunRandoop
