@@ -1,5 +1,1 @@
-randoop.RandoopObserver
-randoop.RandoopSubject
-randoop.EmmaCoverage
-randoop.FolderOperations
 randoop.RunRandoop
