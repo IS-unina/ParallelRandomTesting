@@ -1,5 +1,2 @@
-org.randoop.EmmaCoverage
-org.randoop.FolderOperations
-org.randoop.RandoopObserver
-org.randoop.RandoopSubject
-org.randoop.RunRandoop
+randoop.RandoopObserver.Main
+randoop.RandoopSubject.Main
