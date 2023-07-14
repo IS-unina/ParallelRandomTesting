@@ -1,5 +1,5 @@
-src.randoop.EmmaCoverage
-src.randoop.FolderOperations
-src.randoop.RandoopObserver
-src.randoop.RandoopSubject
-src.randoop.RunRandoop
+org.randoop.EmmaCoverage
+org.randoop.FolderOperations
+org.randoop.RandoopObserver
+org.randoop.RandoopSubject
+org.randoop.RunRandoop
